@@ -91,6 +91,7 @@ p {
   display: flex;
   list-style-type: none;
 }
+
 .li-item:not(:last-child) {
   margin-right: 50px;
 }
@@ -104,6 +105,9 @@ p {
 }
 .nav-list:hover,
 .nav-list:focus {
+  color: var(--accent-color-blue);
+}
+.current {
   color: var(--accent-color-blue);
 }
 .nav .nav-list {
